@@ -9,7 +9,7 @@ It uses a **CNN + LSTM model** to learn spatio-temporal features and predict the
 - 🎥 Recognizes palace-themed sign language gestures from video clips.
 - 🧠 Uses **CNN + LSTM** for spatio-temporal sequence learning.
 - 🏛️ Trained on a **custom dataset** with 29 palace-related classes.
-- 📊 Supports classification from **16-frame video sequences**.
+- 📊 Supports classification from **8-frame video sequences**.
 - 🌍 Aims to preserve cultural heritage with modern AI.
 
 ---
@@ -36,14 +36,6 @@ Each video is processed into **8-frame clips** for training and prediction.
 
 ## 🏗️ Model
 - **Architecture**: CNN (spatial feature extraction) + LSTM (temporal sequence learning)  
-- **Input**: 16 frames per video clip  
+- **Input**: 8 frames per video clip  
 - **Output**: One of 29 palace-related classes  
 - **Frameworks Used**: TensorFlow / Keras  
-
----
-
-## 🚀 Installation & Usage
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/signs-of-the-palace.git
-   cd signs-of-the-palace
